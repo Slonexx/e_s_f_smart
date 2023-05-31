@@ -113,6 +113,7 @@
         } else {
             window.document.getElementById('organizationID').value = organization[0].id
             ID_BIN(organization[0].id)
+            View('PASS_ESF', 'fa_yes_ID_BIN', 'fa_no_ID_BIN')
         }
 
 
